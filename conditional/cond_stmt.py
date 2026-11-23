@@ -15,12 +15,15 @@ b = 20;
 #         print("a is not greater then 20")
 # else:
 #     print("a is not greater then 10")
-age = 17
-has_license = False
-if age >= 18:
-    if has_license:
-        print("You can drive")
-    else:
-        print("u need a license to drive")
-else:
-    print("you are too long to drive")
+# i = 1
+# while i < 6:
+#     if i == 3:
+#         print(i)    
+#     i= i+1
+y = 0
+while y < 6:
+    y = y+1
+    if y == 3:
+        continue
+    print(y)
+    
